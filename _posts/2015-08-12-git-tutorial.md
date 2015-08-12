@@ -102,10 +102,11 @@ modified:   CONTRIBUTING.md
 ```
 `git status -s` gives a more compact overview, for this example
 
-    $ git status -s
-     M CONTRIBUTING.md
-    ?? README
-
+``` bash
+$ git status -s
+ M CONTRIBUTING.md
+?? README
+```
 You can add both files to the same commit using `git add .` or commit each individually. 
 
 ## Removing tracked files
