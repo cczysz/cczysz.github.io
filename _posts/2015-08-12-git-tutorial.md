@@ -30,3 +30,4 @@ To set up a repository, make a new directory, `cd` into it, and run `git init`
 To download an existing repository
 
 `git clone <url>`
+
