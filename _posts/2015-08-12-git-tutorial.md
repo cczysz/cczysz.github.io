@@ -7,6 +7,8 @@ title: Git Tutorial
 
 Git is a versioning software, similar to SVN, Mercurial, and others. It can be used locally, storing changes in a .git directory. It can also be used to store repositories online, such as on Github or Bitbucket.
 
+Fun fact: Adding your UChicago email address to your Github account *should* upgrade your account for free.
+
 # Web Resources
 
 [Git homepage](http://www.git-scm.com)
@@ -69,11 +71,20 @@ If you just initialized an existing directory, `git add .` will track all existi
 
 Once you've added the files you want to track, it's time to commit.
 
-`git commit` will open your specified text editor to add a commit message. Or you can use `git commit -m "commit message"` to add the message directly.
+`git commit` will open your specified text editor to add a commit message. 
+
+You can also use `git commit -m "commit message"` to add the message directly.
 
 Committing records changes to the local git repository. If you're working on a hosted repo, the `git push` command will send recent commits to the remote repo.
 
- 
+## Example Workflow
+
+    echo "new line" >> file.txt
+    git add file.txt
+    git commit -m "added a new line"
+    git push
+
+
 
 
 
