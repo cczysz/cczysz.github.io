@@ -92,14 +92,14 @@ Sometimes, you change many files before you commit them. To see all modified fil
 
 The default output will look similar to this
 
-    $ git status
-    On branch master
-    Changes to be committed:
-      (use "git reset HEAD <file>..." to unstage)
-
-        new file:   README
-        modified:   CONTRIBUTING.md
-
+``` bash
+$ git status
+On branch master
+Changes to be committed:
+(use "git reset HEAD <file>..." to unstage)
+new file:   README
+modified:   CONTRIBUTING.md
+```
 `git status -s` gives a more compact overview, for this example
 
     $ git status -s
