@@ -84,7 +84,36 @@ Committing records changes to the local git repository. If you're working on a h
     git commit -m "added a new line"
     git push
 
+# Ch-ch-ch-changes
 
+Sometimes, you change many files before you commit them. To see all modified files, use
 
+`git status`
+
+The default output will look similar to this
+
+    $ git status
+    On branch master
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+
+        new file:   README
+        modified:   CONTRIBUTING.md
+
+`git status -s` gives a more compact overview, for this example
+
+    $ git status -s
+     M CONTRIBUTING.md
+    ?? README
+
+You can add both files to the same commit using `git add .` or commit each individually. 
+
+## Removing tracked files
+
+Deleting tracked files using `rm` won't automatically remove them from being tracked by git.
+
+Use `git rm <file>` in order to untrack files. This should work even if you've already deleted the file.
+
+`git add -A` will add and remove currently untracked files in the working directory.
 
 
