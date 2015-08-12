@@ -16,3 +16,17 @@ The `git` command is a quick way to see all available subcommands. The most impo
 * `git add`
 * `git commit`
 * `git push`
+
+# Init
+
+Before using git, there are a few defaults you'll want to set.
+
+`git config --global user.name "<name>"`
+
+`git config --global user.email "<email>"`
+
+To set up a repository, make a new directory, `cd` into it, and run `git init`
+
+To download an existing repository
+
+`git clone <url>`
