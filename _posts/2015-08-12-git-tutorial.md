@@ -117,4 +117,7 @@ Use `git rm <file>` in order to untrack files. This should work even if you've a
 
 `git add -A` will add and remove currently untracked files in the working directory.
 
+https://xkcd.com/1296/
+
+http://betterexplained.com/articles/a-visual-guide-to-version-control/
 
