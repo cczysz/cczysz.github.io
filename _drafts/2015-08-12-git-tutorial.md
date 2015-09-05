@@ -15,15 +15,26 @@ Fun fact: Adding your UChicago email address to your Github account *should* upg
 
 [Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
+[Git - The Simple Guide](https://rogerdudler.github.io/git-guide/)
+
 # Using git on Tarbell
 
 Git should already be installed for you on tarbell. Confirm this by typing `git`.
 
-The `git` command is a quick way to see all available subcommands. The most important commands for us are:
+This command is a quick way to see all available subcommands. 
+
+The most important commands for individual use are:
 
 * `git add`
 * `git commit`
 * `git push`
+
+For collaboration, you'll be adding
+
+* `git checkout`
+* `git fetch`
+* `git merge`
+
 
 Generally, you'll only want to track scripts and small text files. You can accomplish this by setting aside a directory only for scripts, or by ignoring files and directories with a `.gitignore` file, or both.
 
