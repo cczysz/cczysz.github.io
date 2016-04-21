@@ -11,7 +11,7 @@ Internet Relay Chat (IRC) meets Silicon Valley startup culture.
 
 Channels are where you will spend the bulk of your time using Slack. Each channel represents a specific theme/topic where invited members can post.
 
-![Channel Overview](../images/slack_sidebar.png)
+![Channel Overview]({{site.baseurl}}/images/slack_sidebar.png)
 
 Currently, the lab Slack has channels for general announcements, links to papers, lab meeting discussion, posts on interesting seminars, and some project-specific channels.
 
@@ -23,7 +23,7 @@ Anyone in the lab can join any channel as well as set up their own channel, eith
 
 I have created a channel for one of my projects and restricted it to allow only those I invite to see it. Currently it's printing a message whenever I commit to the project's Github repository.
 
-![Github channel](../images/tcga_git.png)
+![Github channel]({{site.baseurl}}/images/tcga_git.png)
 
 # Git versus Github
 
