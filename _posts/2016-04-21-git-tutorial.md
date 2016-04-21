@@ -17,7 +17,7 @@ Currently, the lab Slack has channels for general announcements, links to papers
 
 Anyone in the lab can join any channel as well as set up their own channel, either public or private.
 
-![Interesting papers post](../images/channel_example.png)
+![Interesting papers post]({{site.baseurl}}/images/channel_example.png)
 
 ## Private Channels
 
@@ -43,7 +43,7 @@ Fun fact: Adding your UChicago email address to your Github account *should* upg
 
 Git should already be installed for you on tarbell. Confirm this by typing `git`.
 
-This command is a quick way to see all available subcommands. 
+This command is a quick way to see all available subcommands.
 
 The most important commands for individual use are:
 
@@ -61,17 +61,17 @@ For collaboration, you'll be adding
 Generally, you'll only want to track scripts and small text files. You can accomplish this by setting aside a directory only for scripts, or by ignoring files and directories with a `.gitignore` file, or both.
 
     .gitignore
-    
-    *.py 
+
+    *.py
     #Ignore python files
-    *.pdf 
+    *.pdf
     # Ignore pdf files
-    data/ 
+    data/
     # Ignore the directory ./data
 
 
-    
-    
+
+
 
 # Init
 
@@ -104,7 +104,7 @@ If you just initialized an existing directory, `git add .` will track all existi
 
 Once you've added the files you want to track, it's time to commit.
 
-`git commit` will open your specified text editor to add a commit message. 
+`git commit` will open your specified text editor to add a commit message.
 
 You can also use `git commit -m "commit message"` to add the message directly.
 
@@ -140,7 +140,7 @@ $ git status -s
  M CONTRIBUTING.md
 ?? README
 ```
-You can add both files to the same commit using `git add .` or commit each individually. 
+You can add both files to the same commit using `git add .` or commit each individually.
 
 ## Removing tracked files
 
@@ -153,4 +153,3 @@ Use `git rm <file>` in order to untrack files. This should work even if you've a
 https://xkcd.com/1296/
 
 http://betterexplained.com/articles/a-visual-guide-to-version-control/
-
