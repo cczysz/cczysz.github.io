@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Slack, *git*, and Github Tutorial
+title: Slack, git, and Github Tutorial
 ---
 
 # Slack
@@ -25,6 +25,8 @@ I have created a channel for one of my projects and restricted it to allow only 
 
 ![Github channel]({{site.baseurl}}/images/tcga_git.png)
 
+----
+
 # Git versus Github
 
 Git is a versioning software, similar to SVN, Mercurial, and others. It can be used locally, storing changes in a .git directory. It can also be used to store repositories online, such as on Github or Bitbucket.
@@ -38,6 +40,8 @@ Fun fact: Adding your UChicago email address to your Github account *should* upg
 [Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
 [Git - The Simple Guide](https://rogerdudler.github.io/git-guide/)
+
+[Ry's Git Tutorial](http://rypress.com/tutorials/git/index)
 
 # Using git on Tarbell
 
@@ -58,10 +62,10 @@ For collaboration, you'll be adding
 * `git merge`
 
 
-Generally, you'll only want to track scripts and small text files. You can accomplish this by setting aside a directory only for scripts, or by ignoring files and directories with a `.gitignore` file, or both.
+Generally, you'll only want to track scripts and other small text files. You can accomplish this by setting aside a directory only for scripts, or by ignoring files and directories with a `.gitignore` file, or both.
 
     .gitignore
-
+    
     *.py
     #Ignore python files
     *.pdf
@@ -96,7 +100,7 @@ To download an existing repository
 
 `git clone <url>`
 
-# Adding to a repo
+# Tracking files
 
 The `git add <files>` command tracks the specified files and stages them for committing.
 
